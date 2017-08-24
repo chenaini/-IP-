@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace SetIPAddress
 {
-    public partial class FrmAddOrEdit : Form
+    public partial class FrmAddOrEdit : DevExpress.XtraEditors.XtraForm
     {
         public string sName = "";
         public string sIp = "";

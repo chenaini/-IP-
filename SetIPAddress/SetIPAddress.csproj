@@ -69,11 +69,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="FrmMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmAddOrEdit.cs">
       <SubType>Form</SubType>
@@ -81,14 +81,23 @@
     <Compile Include="FrmAddOrEdit.Designer.cs">
       <DependentUpon>FrmAddOrEdit.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmRemoteAddOrEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRemoteAddOrEdit.Designer.cs">
+      <DependentUpon>FrmRemoteAddOrEdit.cs</DependentUpon>
+    </Compile>
     <Compile Include="NetworkSetting.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmAddOrEdit.resx">
       <DependentUpon>FrmAddOrEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRemoteAddOrEdit.resx">
+      <DependentUpon>FrmRemoteAddOrEdit.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">

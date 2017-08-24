@@ -29,28 +29,28 @@
         private void InitializeComponent()
         {
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
+            this.txtRemark = new DevExpress.XtraEditors.MemoEdit();
             this.txtName = new DevExpress.XtraEditors.TextEdit();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
             this.txtDNS = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
             this.txtGetway = new DevExpress.XtraEditors.TextEdit();
             this.txtIP = new DevExpress.XtraEditors.TextEdit();
             this.txtSubmask = new DevExpress.XtraEditors.TextEdit();
-            this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
-            this.txtRemark = new DevExpress.XtraEditors.MemoEdit();
             this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.txtRemark.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtName.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtDNS.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtGetway.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtIP.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtSubmask.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtRemark.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // groupControl1
@@ -69,9 +69,16 @@
             this.groupControl1.Controls.Add(this.txtSubmask);
             this.groupControl1.Location = new System.Drawing.Point(38, 24);
             this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(584, 418);
+            this.groupControl1.Size = new System.Drawing.Size(590, 418);
             this.groupControl1.TabIndex = 0;
             this.groupControl1.Text = "IP地址信息";
+            // 
+            // txtRemark
+            // 
+            this.txtRemark.Location = new System.Drawing.Point(106, 248);
+            this.txtRemark.Name = "txtRemark";
+            this.txtRemark.Size = new System.Drawing.Size(464, 153);
+            this.txtRemark.TabIndex = 13;
             // 
             // txtName
             // 
@@ -125,6 +132,15 @@
             this.txtDNS.Size = new System.Drawing.Size(175, 24);
             this.txtDNS.TabIndex = 8;
             // 
+            // labelControl6
+            // 
+            this.labelControl6.Location = new System.Drawing.Point(25, 249);
+            this.labelControl6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.labelControl6.Name = "labelControl6";
+            this.labelControl6.Size = new System.Drawing.Size(75, 18);
+            this.labelControl6.TabIndex = 6;
+            this.labelControl6.Text = "备注说明：";
+            // 
             // labelControl5
             // 
             this.labelControl5.Location = new System.Drawing.Point(57, 208);
@@ -159,22 +175,6 @@
             this.txtSubmask.Size = new System.Drawing.Size(175, 24);
             this.txtSubmask.TabIndex = 11;
             // 
-            // labelControl6
-            // 
-            this.labelControl6.Location = new System.Drawing.Point(25, 249);
-            this.labelControl6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.labelControl6.Name = "labelControl6";
-            this.labelControl6.Size = new System.Drawing.Size(75, 18);
-            this.labelControl6.TabIndex = 6;
-            this.labelControl6.Text = "备注说明：";
-            // 
-            // txtRemark
-            // 
-            this.txtRemark.Location = new System.Drawing.Point(106, 248);
-            this.txtRemark.Name = "txtRemark";
-            this.txtRemark.Size = new System.Drawing.Size(464, 153);
-            this.txtRemark.TabIndex = 13;
-            // 
             // simpleButton1
             // 
             this.simpleButton1.Location = new System.Drawing.Point(183, 458);
@@ -197,7 +197,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(652, 514);
+            this.ClientSize = new System.Drawing.Size(661, 514);
             this.Controls.Add(this.simpleButton2);
             this.Controls.Add(this.simpleButton1);
             this.Controls.Add(this.groupControl1);
@@ -210,12 +210,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
             this.groupControl1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.txtRemark.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtName.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtDNS.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtGetway.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtIP.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtSubmask.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtRemark.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
